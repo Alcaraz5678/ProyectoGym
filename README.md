@@ -14,7 +14,7 @@ El sistema verifica la elegibilidad del usuario en la base de datos de la univer
 Si el usuario es elegible, se crea una cuenta en el sistema.
 El usuario puede iniciar sesión en el sistema con su número de identificación y una contraseña.
 
-Reserva de horarios:  
+### Reserva de horarios:  
 
 El usuario selecciona la fecha y hora en la que desea usar el gimnasio.
 El sistema muestra la disponibilidad de horarios para esa fecha.
@@ -35,11 +35,13 @@ Gestión de capacidad:
 El sistema define un límite de usuarios en el gimnasio por hora.
 El sistema muestra la disponibilidad de cupos en tiempo real.
 El sistema no permite reservar un horario si se ha superado el límite de cupos.
-Historial de reservas:
+
+### Historial de reservas:
 
 El usuario puede ver un historial de sus reservas en el sistema.
 El historial de reservas incluye la fecha, hora, estado y duración de cada reserva.
-Calendario personalizado:
+
+### Calendario personalizado:
 
 Cada estudiante tiene un calendario personalizado en el sistema.
 El calendario muestra las reservas del estudiante y las actividades programadas por el gimnasio.
