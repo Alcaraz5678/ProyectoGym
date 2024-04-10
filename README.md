@@ -9,14 +9,14 @@ para abordar este problema, proponemos desarrolar un sistema de reservas en lín
 ![Imagen](https://github.com/Alcaraz5678/ProyectoGym/assets/159557516/9cb56df4-bf97-485c-9a3f-19b28305db65)
 
 ### Descripción detallada de las funcionalidades del sistema de reservas en línea:
-### Registro de usuarios:
+### _Registro de usuarios:_
 
 El usuario ingresa su número de identificación.
 El sistema verifica la elegibilidad del usuario en la base de datos de la universidad.
 Si el usuario es elegible, se crea una cuenta en el sistema.
 El usuario puede iniciar sesión en el sistema con su número de identificación y una contraseña.
 
-### Reserva de horarios:  
+### _Reserva de horarios:_  
 
 El usuario selecciona la fecha y hora en la que desea usar el gimnasio.
 El sistema muestra la disponibilidad de horarios para esa fecha.
@@ -38,12 +38,12 @@ El sistema define un límite de usuarios en el gimnasio por hora.
 El sistema muestra la disponibilidad de cupos en tiempo real.
 El sistema no permite reservar un horario si se ha superado el límite de cupos.
 
-### Historial de reservas:
+### _Historial de reservas:_
 
 El usuario puede ver un historial de sus reservas en el sistema.
 El historial de reservas incluye la fecha, hora, estado y duración de cada reserva.
 
-### Calendario personalizado:
+### _Calendario personalizado:_
 
 Cada estudiante tiene un calendario personalizado en el sistema.
 El calendario muestra las reservas del estudiante y las actividades programadas por el gimnasio.
