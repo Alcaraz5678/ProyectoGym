@@ -6,6 +6,8 @@ Además, algunos se ven obligados a llegar a las 6 AM del día anterior para ase
 
 para abordar este problema, proponemos desarrolar un sistema de reservas en línea que permita a los estudiantes y al personal reservar su horario en el gimnasio de manera rápida y conveniente.
 
+![Imagen](https://github.com/Alcaraz5678/ProyectoGym/assets/159557516/9cb56df4-bf97-485c-9a3f-19b28305db65)
+
 ### Descripción detallada de las funcionalidades del sistema de reservas en línea:
 ### Registro de usuarios:
 
@@ -53,5 +55,4 @@ El gimnasio ofrece una variedad de retos a los usuarios.
 Los usuarios pueden elegir los retos que desean completar.
 El sistema registra el progreso de los usuarios en los retos.
 Los usuarios que completan un reto reciben un distintivo en el sistema. 
-![Imagen](https://github.com/Alcaraz5678/ProyectoGym/assets/159557516/9cb56df4-bf97-485c-9a3f-19b28305db65)
 
