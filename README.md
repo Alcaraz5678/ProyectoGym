@@ -53,3 +53,5 @@ El gimnasio ofrece una variedad de retos a los usuarios.
 Los usuarios pueden elegir los retos que desean completar.
 El sistema registra el progreso de los usuarios en los retos.
 Los usuarios que completan un reto reciben un distintivo en el sistema. 
+![Imagen](https://github.com/Alcaraz5678/ProyectoGym/assets/159557516/9cb56df4-bf97-485c-9a3f-19b28305db65)
+
