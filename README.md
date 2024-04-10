@@ -1,4 +1,4 @@
-# Sistema De Reservas para el gimnasio de la Universidad De Medellín
+<p align="justify"> #  Sistema De Reservas para el gimnasio de la Universidad De Medellín
 
 En la universidad de medellín, actualmente reservar el gimnasio es un proceso incómodo y lento.
 Los estudiantes y el personal deben ir fisicamente al bloque 2 o enviar un correo con 24 horas de anticipación para solicitar una reserva.
@@ -52,4 +52,4 @@ Retos del gimnasio:
 El gimnasio ofrece una variedad de retos a los usuarios.
 Los usuarios pueden elegir los retos que desean completar.
 El sistema registra el progreso de los usuarios en los retos.
-Los usuarios que completan un reto reciben un distintivo en el sistema.
+Los usuarios que completan un reto reciben un distintivo en el sistema. </p>
