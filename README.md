@@ -16,4 +16,4 @@ luego el sistema muestra la información de la reserva
 El usuario puede cancelar su reserva desde el sistema. El sistema solicita al usuario confirmar la cancelación. El sistema le confirmaría la cancelación con una notificación, El sistema define un límite de usuarios en el gimnasio por hora. El sistema muestra la disponibilidad de cupos en tiempo real. El sistema no permite reservar un horario si se ha superado el límite de capacidad.
 El usuario también puede ver un historial de sus reservas en el sistema. El historial de reservas incluye la fecha, hora y estado
 Cada estudiante tiene un calendario personalizado en el sistema. El calendario muestra las reservas del estudiante El estudiante puede ver la disponibilidad del gimnasio en el calendario. 
-El gimnasio ofrece una variedad de retos a los usuarios. Los usuarios pueden elegir los retos que desean completar, luego se muestra información del reto seleccionado.
+El gimnasio ofrece una variedad de retos a los usuarios. Los usuarios pueden elegir los retos que desean completar, luego se muestra información del reto seleccionado. 
