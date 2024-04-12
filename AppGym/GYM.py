@@ -1,12 +1,12 @@
 import datetime
-
+from typing import Set, Dict
 class Usuario:
-    def __init__(self, nombre, documento):
+    def __init__(self, nombre: str, documento: str):
         self.nombre = nombre
         self.documento = documento
         self.historial_reservas = []
         self.retos_cumplidos = []
-        self.intervalos_seleccionados = set()
+        self.intervalos_seleccionados: Set[str] = set()
 
     def hacer_reserva(self, reserva):
         self.historial_reservas.append(reserva)
@@ -34,13 +34,13 @@ class Usuario:
             print("Ya has completado este reto anteriormente.")
 
 class Reserva:
-    def __init__(self, hora, estado="Confirmada"):
+    def __init__(self, hora: str, estado: str = "Confirmada"):
         self.fecha = datetime.datetime.now().strftime("%d/%m/%Y")
         self.hora = hora
         self.estado = estado
 
 class Reto:
-    def __init__(self, descripcion, objetivo, requisitos):
+    def __init__(self, descripcion: str, objetivo: str, requisitos: str):
         self.descripcion = descripcion
         self.objetivo = objetivo
         self.requisitos = requisitos
@@ -52,7 +52,7 @@ class Reto:
 
 class Calendario:
     def __init__(self):
-        self.reservas = {}
+        self.reservas: Dict[Usuario, list[Reserva]] = {}
 
     def agregar_reserva(self, usuario, reserva):
         if usuario not in self.reservas:
@@ -67,7 +67,7 @@ class Calendario:
                 print(f"Fecha: {reserva.fecha}, Hora: {reserva.hora}, Estado: {reserva.estado}")
 
 class Horario:
-    def __init__(self, hora_inicio, hora_fin, capacidad_maxima):
+    def __init__(self, hora_inicio: str, hora_fin: str, capacidad_maxima: int):
         self.hora_inicio = hora_inicio
         self.hora_fin = hora_fin
         self.capacidad_maxima = capacidad_maxima
@@ -160,7 +160,7 @@ def menu_usuario(usuario, gimnasio):
                     reserva_cancelar = usuario.historial_reservas[indice]
                     horario_cancelar = gimnasio.horarios.get(reserva_cancelar.hora)
                     usuario.cancelar_reserva(reserva_cancelar)
-                    horario_cancelar.decrementar_registros()  # Resta la cuenta de reservas
+                    horario_cancelar.decrementar_registros()
                     gimnasio.calendario.mostrar_calendario()
                 else:
                     print("Opción no válida.")

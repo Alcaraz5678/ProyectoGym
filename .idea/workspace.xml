@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a245c610-b654-4864-8d53-f060c0e038f2" name="Changes" comment="se agrega informacion al README.md">
-      <change afterPath="$PROJECT_DIR$/AppGym/codigo_nuevo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppGym/codigos de gpt.py" afterDir="false" />
+    <list default="true" id="a245c610-b654-4864-8d53-f060c0e038f2" name="Changes" comment="Archivo gym con codigo completado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppGym/Gym.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppGym/Gym.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppGym/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppGym/codigo con retos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppGym/GYM.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppGym/GYM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.GYM.executor": "Run",
     "Python.Gym.executor": "Run",
     "Python.codigo con retos.executor": "Run",
     "Python.codigo_nuevo.executor": "Run",
@@ -51,7 +49,29 @@
     "last_opened_file_path": "C:/Users/user/PycharmProjects/ProyectoGym"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.codigos de gpt">
+  <component name="RunManager" selected="Python.GYM">
+    <configuration name="GYM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProyectoGym" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppGym" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppGym/GYM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Gym" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProyectoGym" />
       <option name="ENV_FILES" value="" />
@@ -142,6 +162,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.GYM" />
         <item itemvalue="Python.codigos de gpt" />
         <item itemvalue="Python.codigo con retos" />
         <item itemvalue="Python.codigo_nuevo" />
@@ -173,11 +194,20 @@
       <option name="project" value="LOCAL" />
       <updated>1712715278514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Archivo gym con codigo completado">
+      <option name="closed" value="true" />
+      <created>1712894544256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712894544256</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="se agrega informacion al README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="se agrega informacion al README.md" />
+    <MESSAGE value="Archivo gym con codigo completado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archivo gym con codigo completado" />
   </component>
 </project>
